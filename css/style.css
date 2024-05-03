@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 768px) {
+  .navbar-brand {
+    flex-direction: column;
+  }
   .container, .text-wrapper {
     flex-direction: column;
   }
