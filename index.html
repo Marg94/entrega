@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Inicio</title>
+
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"/>
+
+      <meta name="description" content="pagina de pasteleria">
+      <meta name="keyword" content="pagina, pasteleria, tortas, cupcakes, galletas, alfajores, decoraciones,marshmallows">
+    
+    <link rel="stylesheet" href="css/style.css"/>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Satisfy&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary navbar-expand-md">
+        <div class="container-fluid">
+          <a href="https://www.instagram.com/armentina1/"><img class="instagram-icono" src="images/instagramicono.png" alt="icono de instagram"></a>
+          <a class="navbar-brand" href="index.html"><img class="logo-img" src="images/logo chico.png"
+              alt="logo de Armentina"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Armentina
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/tienda.html">Tienda+</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/eventos.html">Eventos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/sobremi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="text-wrapper">
+          <h2>Donde la pasion encuentra sabor</h2>
+          <h3>Atencion Personalizada</h3>
+          <p>
+            Desde las clasicas tortas hasta las mas elaboradas con rellenos y
+            decoraciones creativas respresentan amor y dedicacion, convirtiendo
+            cada ocasion en un dulce recuerdo.
+          </p>
+        </div>
+        <article class="box-container">
+          <img class="img-container"
+            src="images/media torta.jpg"
+            alt="torta con forma de media torta, en frente dice feliz cumpleaños y decorada con papel de arroz"/>
+          <img class="img-container"
+            src="tortas img/torta con macaroons.jpeg"
+            alt="hermosa torta color natural decorada con macarones y papel de arroz "/>
+          <img class="img-container"
+            src="tortas img/torta hombre.jpeg" alt="hermosa torta mitad blanca y mitad gris, con velas, arriba dice feliz cumple y decorada con bolitas"/>
+        </article>
+      </div>
+
+      <h3 class="titulo-eventos">Eventos y Celebraciones</h3>
+      <div class="box-eventos">
+        <article class="article-event">
+          <p class="p-eventos">
+            Todas nuestras delicias son cuidadosamente elaboradas por nuestra
+            talentosa cocinera, quien combina creatividad, pasion y experiencia
+            y transforma cada evento en una experiencia inolvidable. Hace tortas
+            de cumpleaños, de reuniones corporativas o familiares. Estamos aqui
+            para hacer realidad tus suenos dulces.
+          </p>
+          <a class="link" href="">Solicita presupuesto para tu evento!</a>
+        </article>
+
+        <img
+          class="img-eventos"
+          src="images/jefe bebe.jpeg"
+          alt="different mini cakes for event"/>
+      </div>
+      
+      <h2 class="titulo2">Diseños y decoraciones</h2>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/torta srtiknerov.jpeg"
+              class="d-block w-100"
+              alt="torta blanca decorada con corazones rojos y abajo con un moño blanco"
+              width="400"
+              height="600"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/chocolate blanco con relleno.jpg"
+              class="d-block w-100"
+              alt="chocolate blanco corazon con relleno de frutilla"
+              width="400"
+              height="600"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/paleta chocolate.jpg"
+              class="d-block w-100"
+              alt="muchos animalitos marshmallows"
+              width="400"
+              height="600"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="box-contact">
+        <h2 class="title-contact">Contactanos</h2>
+
+        <form class="form" action="formulario">
+          <div class="form-item">
+            <label for="nombre">Nombre</label>
+            <input type="nombre" placeholder="Tu nombre" id="nombre" />
+          </div>
+
+          <div class="form-item">
+            <label for="correo electronico">Correo electronico</label>
+            <input
+              type="correo electrnico"
+              placeholder="Tu correo electronico"
+              id="correo electronico"
+            />
+          </div>
+
+          <div class="form-item">
+            <label for="mensajegi">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Tu mensaje"
+            ></textarea>
+          </div>
+          <div><button type="submit">Enviar</button></div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <article class="box-footer">
+        <h4 class="box-content">Redes Sociales</h4>
+        <a href="https://www.instagram.com/armentina1/"><img class="instagram-icon" src="images/instagramicono.png" alt="instagram icon"></a>
+        <p class="text-payment"> 
+          Metodos de pago: <br>
+          Transferencias bancarias y mercado pago <br/>
+          Efectivo
+        </p>
+      </article>
+    </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

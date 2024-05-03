@@ -1,0 +1,14 @@
+
+@mixin img($width, $height, $object){
+    width: $width;
+    height: $height;
+    object-fit: $object;
+
+}
+@mixin text($size, $weight, $family, $align, $color){
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+    text-align: $align;
+    color: $color;
+}

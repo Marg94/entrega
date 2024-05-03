@@ -1,0 +1,62 @@
+/* contacto*/
+
+.title-contact{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: rgb(54, 54, 54);
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+}
+
+.label{
+    display: block;
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+}
+.form{
+    display: block;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+.form textarea{
+    display: block;
+    align-self: center;
+    text-align: start;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 24, 110);
+    width: 600px;
+    height: 200px;
+
+}
+.form input{
+display: block;
+width: 600px;
+align-items: center;
+text-align: start;
+justify-content: center;
+border-radius: 10px;
+border: 2px solid rgb(40, 24, 110);
+}
+button{
+    width: 150px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(150, 39, 103);
+}
+.box-contact, .box-contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
