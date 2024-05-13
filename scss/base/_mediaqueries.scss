@@ -1,48 +1,80 @@
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .container,
+  .text-wrapper {
+    flex-direction: column;
+  }
+  .box-container {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat (1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .box-eventos,
+  .form-item,
+  .box-footer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .box-tienda  {
+   grid-template-columns: repeat(1, 1fr) !important;
+   
+   img { 
+    width: 280px !important;
+   }
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    .about img {
+      display: grid;
+      grid-template-columns: repeat (1, 1fr);
+    }
+  }
+  .grid-container {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr) !important; 
+  }
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-contact {
+    flex-direction: column;
+  }
+  .box-footer {
+    flex-direction: column;
+  }
 
-@media (max-width: 768px){
-    .navbar-brand{
-        flex-direction: column;
-    }
-    .container, .text-wrapper{
-        flex-direction: column;
-    }
-    .box-container{
-        display: grid;
-        flex-direction: column;
-        grid-template-columns: repeat (1, 1fr);
-    }
+  .link-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-@media (max-width: 768px){
-    .box-eventos, .box-contact, .box-footer{
-        flex-direction: column;
-    }
-}
-@media (max-width: 768px){
-    .box-tienda{
-        display: grid;
-        flex-direction: column;
-        grid-template-columns: repeat (1, 1fr);
-    }
-}
-@media (max-width: 768px){
-    .about, .about-titulo, .about-p{
-        flex-direction: column;
 
-        .about{
-            display: grid;
-            flex-direction: column;
-            grid-template-columns: 1, 1fr;
-        }
+@media (max-width: 768px) {
+    .box-eventos .link{
+        font-size: 16px !important;
+    } 
+
+    .img-eventos {
+        max-width: 300px;
     }
-    .sec-eventos{
-        display: grid;
-        flex-direction: column;
-        grid-template-columns: repeat(1, 1fr);
+
+    .box-contact .form {
+        width: 80%;
     }
-    .box-contact{
-        flex-direction: column;
-    }
-    .box-footer{
-        flex-direction: column;
+    
+    .about img {
+        width: 100% !important;
+        height: 200px !important;
     }
 }

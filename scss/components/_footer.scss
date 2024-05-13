@@ -1,42 +1,44 @@
 /*footer*/
 .box-footer {
+  background-color: rgb(158, 74, 92);
+  flex-direction: column;
+  max-width: 100%;
+  height: 180px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+  .instagram-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    justify-content: center;
+  }
+
+  .whatsapp-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  .text-payment {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .icon-wrapper  {
     display: flex;
-    flex-direction: row;
-    background-color: rgb(158, 74, 92);
-    width: 100%;
-    height: 200px;
-
-    .box-content{
-        text-align: center;
-        justify-content: center;
-        color: rgb(12, 12, 12);
-        font-size: 23px;
-        font-weight: 700;
-        left: 8%;
-        margin-top: 4%;
-        padding: 10px;
-        
-        
-    }
-    .text-payment{
-        font-size: 20px;
-        font-weight: 800;
-        color: rgb(12, 12, 12);
-        text-align: start;
-        justify-content: start;
-        position: relative;
-        left: 10%;
-        margin-top: 4%;
-        
-    }
-
-    .instagram-icon{
-        width: 60px;
-        height: 60px;
-        margin-top: 10%;
-        position: relative;
-        margin-top: 55px;
-        
-        
-    }
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+}
+.box-footer h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 33px;
+  font-family: "Dancing Script";
+  font-weight: bold;
 }

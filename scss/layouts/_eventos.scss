@@ -1,39 +1,40 @@
 /*eventos*/
-.sec-eventos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom:  30px;
-    padding: 10px;
-    gap: 10px;
-}
 .titleh2{
-    @include text (50px, 800, "Dancing Script", center, rgb(34, 34, 34));
+    @include text (45px, 800, "Dancing Script", center, rgb(34, 34, 34));
     margin: 30px;
     padding: 20px;
-    
 }
-
-.img1, .img2, .img3, .img4, .img5, .img6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
     margin-left: 30px;
-    @include img (300px, 400px, cover);
-    border-radius: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+
+    .grid-item{
+        width: 100%;
+    }
+    
+    .grid-item img{
+        @include img (300px, 400px, cover);
+        border-radius: 7px;
+    }
+    .img-item2, .img-item5{
+        margin-top: 55px;
+    }
 }
 
 .eventos1{
-    text-align: center;
-    width: 100px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
     background-color: rgb(248, 181, 192);
     padding: 8px 8px;
-    border-radius: 8px;
+    border-radius: 7px;
     color: rgb(36, 35, 35);
     font-size: 18px;
     font-weight: 600;
-    margin: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
