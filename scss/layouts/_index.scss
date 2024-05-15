@@ -1,47 +1,43 @@
 /*main*/
-.titulo2{
-    @include text(50px, 800, "Dancing Script", center, rgb(34, 34, 34));
-    justify-content: center;
-    padding: 30px 20px;
-}
-.container{
-    padding: 20px;
 
     .box-container{
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 20px;
+
+        .img-container{
+            width: 300px;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
+    
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-wrapper h2{
+            @include text (50px, 800, "Dancing Script", center, rgb(34, 34, 34));
+            margin-top: 70px;
+            padding: 10px;
+        }
+
+    .text-wrapper h3{
+            @include text (23px, bold, sans-serif, center, rgb(34, 34, 34));
+            padding: 10px;
+            text-transform: uppercase;
     }
 
-    .text-wrapper h2{
-        @include text (50px, 800, "Dancing Script", center, rgb(34, 34, 34));
-        margin-top: 70px;
-        padding: 10px;
-        
-    }
-    .text-wrapper h3{
-        @include text (23px, bold, sans-serif, center, rgb(34, 34, 34));
-        justify-content: center;
-        padding: 10px;
-        text-transform: uppercase;
-}
     .text-wrapper p{
-    max-width: 600px;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-    
-    .img-container{
-        max-width: 33%;
-        object-fit: cover;
-        border-radius: 100%;
-        padding: 5px;
+        text-align: center;
+        font-size: 18px;
+        font-family: sans-serif;
     }
-}
+    
+
 
 .box-eventos{
     display: flex;
@@ -62,7 +58,7 @@
     }
 
     .img-eventos{
-        @include img (448px, 400px, cover);
+        @include img (600px, 400px, cover);
         border-radius: 10px;
         transition: 0.5s;
     }
@@ -71,19 +67,18 @@
         transform: scale(1.1);
     }
     .link{
-        max-width: 100px;
+        width: 50px;
         background-color: rgb(218, 252, 98);
-        text-align: start;
-        justify-content: flex-start;
-        padding: 7px;
-        font-size: 22px;
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+        font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
         text-decoration: none;
-        border-radius: 20px;
-        margin-left: 20px;
+        border-radius: 10px;
         color: rgb(9, 9, 78);
-        
+        margin-left: 3.5%;
     }
 }
 
@@ -94,6 +89,7 @@
     @include text (45px, 800, "Dancing Script", center, rgb(34, 34, 34));
     flex-direction: column;
     justify-content: center;
+    padding: 15px;
 }
 .a-eventos{
     @include text (18px, 700, sans-serif, center, rgb(41, 40, 40));
@@ -108,15 +104,16 @@
     top: 30%;
 }
 
-.carousel-control-prev, .carousel-control-next{
-    margin-top: 25%;
-}
-.carousel-item img{
-    @include img (100%, 800px, contain);
+.titulo2{
+    @include text(50px, 800, "Dancing Script", center, rgb(34, 34, 34));
+    padding: 15px;
     
 }
 
-
-
-
+.carousel-item img{
+    @include img (800px, 600px, cover);
+}
+.carousel-control-prev, .carousel-control-next{
+    top: 45%;
+}
 

@@ -15,7 +15,6 @@
     .grid-item{
         width: 100%;
     }
-    
     .grid-item img{
         @include img (300px, 400px, cover);
         border-radius: 7px;
@@ -23,18 +22,11 @@
     .img-item2, .img-item5{
         margin-top: 55px;
     }
+    
+}
+.link-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.eventos1{
-    align-items: center;
-    justify-content: center;
-    max-width: 100px;
-    background-color: rgb(248, 181, 192);
-    padding: 8px 8px;
-    border-radius: 7px;
-    color: rgb(36, 35, 35);
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
