@@ -7,23 +7,46 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    justify-content: center;
-
+    
     .grid-item{
         width: 100%;
     }
     .grid-item img{
         @include img (300px, 400px, cover);
         border-radius: 7px;
+        margin-left: 30px;
+        padding: 10px;
     }
     .img-item2, .img-item5{
-        margin-top: 55px;
+        margin-top: 60px;
     }
-    
 }
+
+.text-paw1{
+    font-size: 25px;
+    color: rgb(22, 7, 75);
+    text-align: center;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-paw2{
+    font-size: 25px;
+    color: rgb(22, 7, 75);
+    text-align: center;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-paw3{
+    font-size: 25px;
+    color: rgb(22, 7, 75);
+    text-align: center;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .link-wrapper {
     display: flex;
     justify-content: center;

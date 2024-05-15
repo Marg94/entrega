@@ -58,7 +58,7 @@
     }
 
     .img-eventos{
-        @include img (600px, 400px, cover);
+        @include img (448px, 400px, cover);
         border-radius: 10px;
         transition: 0.5s;
     }

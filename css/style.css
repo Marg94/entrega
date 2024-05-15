@@ -90,9 +90,7 @@
   width: 160px;
   height: 120px;
   object-fit: cover;
-  margin: 20px 30px;
-  align-self: center;
-  justify-content: center;
+  margin-left: 25px;
 }
 
 /*footer*/
@@ -205,7 +203,7 @@
   left: 2%;
 }
 .box-eventos .img-eventos {
-  width: 600px;
+  width: 448px;
   height: 400px;
   object-fit: cover;
   border-radius: 10px;
@@ -343,10 +341,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  justify-content: center;
 }
 .grid-container .grid-item {
   width: 100%;
@@ -356,9 +350,38 @@
   height: 400px;
   object-fit: cover;
   border-radius: 7px;
+  margin-left: 30px;
+  padding: 10px;
 }
 .grid-container .img-item2, .grid-container .img-item5 {
-  margin-top: 55px;
+  margin-top: 60px;
+}
+
+.text-paw1 {
+  font-size: 25px;
+  color: rgb(22, 7, 75);
+  text-align: center;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-paw2 {
+  font-size: 25px;
+  color: rgb(22, 7, 75);
+  text-align: center;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-paw3 {
+  font-size: 25px;
+  color: rgb(22, 7, 75);
+  text-align: center;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .link-wrapper {
@@ -397,6 +420,7 @@
 .about-p {
   max-width: 700px;
   font-size: 18px;
+  padding: 10px;
   color: rgb(41, 40, 40);
   justify-content: start;
 }
